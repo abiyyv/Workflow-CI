@@ -6,8 +6,11 @@ from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 
 # konfigurasi mlflow lokal
-mlflow.set_tracking_uri("http://127.0.0.1:5000")
+mlflow.set_tracking_uri(
+    "file:///C:/Users/Abiyyu/OneDrive/Documents/ASAH/MSML_Abiyyu%20Naufal/Workflow-CI/MLProject/mlruns"
+)
 mlflow.set_experiment("Bank-Clustering")
+
 
 # mengaktifkan autolog
 mlflow.sklearn.autolog()

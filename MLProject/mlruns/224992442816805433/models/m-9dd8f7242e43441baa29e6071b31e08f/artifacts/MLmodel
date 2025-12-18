@@ -1,0 +1,37 @@
+artifact_path: file:///C:/Users/Abiyyu/OneDrive/Documents/ASAH/MSML_Abiyyu%20Naufal/Workflow-CI/MLProject/mlruns/224992442816805433/models/m-9dd8f7242e43441baa29e6071b31e08f/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.0
+is_signature_from_type_hint: false
+mlflow_version: 3.7.0
+model_id: m-9dd8f7242e43441baa29e6071b31e08f
+model_size_bytes: 9654
+model_uuid: m-9dd8f7242e43441baa29e6071b31e08f
+prompts: null
+run_id: 078ddd7aea6649589663008060f1fcad
+signature:
+  inputs: '[{"type": "double", "name": "TransactionAmount", "required": true}, {"type":
+    "long", "name": "TransactionDate", "required": true}, {"type": "long", "name":
+    "TransactionType", "required": true}, {"type": "long", "name": "Location", "required":
+    true}, {"type": "long", "name": "Channel", "required": true}, {"type": "double",
+    "name": "CustomerAge", "required": true}, {"type": "long", "name": "CustomerOccupation",
+    "required": true}, {"type": "double", "name": "TransactionDuration", "required":
+    true}, {"type": "double", "name": "LoginAttempts", "required": true}, {"type":
+    "double", "name": "AccountBalance", "required": true}, {"type": "long", "name":
+    "PreviousTransactionDate", "required": true}, {"type": "long", "name": "TransactionAmount_bin",
+    "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int32", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-12-18 12:38:44.876554'

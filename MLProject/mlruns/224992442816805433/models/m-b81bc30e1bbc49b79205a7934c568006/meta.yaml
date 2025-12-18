@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/Abiyyu/OneDrive/Documents/ASAH/MSML_Abiyyu%20Naufal/Workflow-CI/MLProject/mlruns/224992442816805433/models/m-b81bc30e1bbc49b79205a7934c568006/artifacts
+creation_timestamp: 1766061507691
+experiment_id: '224992442816805433'
+last_updated_timestamp: 1766061511400
+model_id: m-b81bc30e1bbc49b79205a7934c568006
+model_type: null
+name: model
+source_run_id: 078ddd7aea6649589663008060f1fcad
+status: 2
+status_message: null
