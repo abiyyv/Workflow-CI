@@ -7,10 +7,6 @@ from sklearn.metrics import silhouette_score
 # AKTIFKAN AUTOLOG
 mlflow.sklearn.autolog()
 
-# TIDAK PAKAI start_run
-# TIDAK PAKAI set_experiment
-# TIDAK PAKAI set_tracking_uri
-
 # ======================
 # LOAD DATA
 # ======================
